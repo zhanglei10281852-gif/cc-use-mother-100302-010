@@ -8,5 +8,8 @@ version = "0.1.0"
 description = "新品组合市场适配复盘基础领域契约"
 requires-python = ">=3.11"
 
+[project.scripts]
+product-portfolio = "product_portfolio.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
